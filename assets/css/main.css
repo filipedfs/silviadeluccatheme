@@ -4,6 +4,7 @@
     --bg-color: #F7E7CE;
     --primary-color: #FF4500;
     --primary-color-font: #2F2E2D;
+    --background-with-opacity: #2f2e2d09;
     --secondary-color-font: #6D6D6D;
     --white: #FFF;
     --silver: #d6d6d6;
@@ -625,6 +626,30 @@ textarea {
     transition: all 0.5s;
 }
 
+.read-more{
+    background-color: var(--background-with-opacity);
+    color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.read-more .bi{
+    color: var(--primary-color-font);
+    opacity: 0.5;
+}
+
+.article-card{
+    margin-top: 50px;
+}
+
+.justify{
+    text-align: justify;
+}
+
 @media only screen and (max-width: 890px) {
     .hide-when-mobile {
         display: none;
@@ -714,6 +739,7 @@ textarea {
     .subtitle-small,
     strong {
         font-size: 1.1rem;
+        line-height: 1.7rem;
     }
 
     .description {
