@@ -16,3 +16,4 @@ function console_log($data){
 
 add_action('wp_enqueue_scripts', 'myStyle');
 add_action('wp_enqueue_scripts', 'myScript');
+
