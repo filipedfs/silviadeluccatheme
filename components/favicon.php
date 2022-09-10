@@ -1,0 +1,1 @@
+<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri()?>/assets/images/favicon/favicon.ico" />

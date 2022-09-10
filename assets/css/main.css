@@ -7,6 +7,9 @@
     --secondary-color-font: #6D6D6D;
     --white: #FFF;
     --silver: #d6d6d6;
+    --soft-silver: #f3f3f3;
+    --blue: #D1E5EE;
+    --soft-blue: #E6F5FC;
 }
 
 body {
@@ -561,6 +564,67 @@ td {
     align-items: flex-end;
 }
 
+/* Forms */
+
+.input{
+    padding: 15px;
+    background-color: var(--white);
+    border: solid 1px var(--soft-silver);
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input:focus{
+    background-color: var(--soft-blue);
+    border: solid 1px var(--blue);
+}
+
+.button{
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.custom-form{
+    min-width: 800px;
+    display: grid;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.form-horizontal-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+textarea { 
+    resize: vertical; 
+}
+
+.form-horizontal-container div, .form-horizontal-container div *{
+    width: 100%;
+}
+
+.replace-with-icon .mobile{
+    justify-content: center;
+    gap: 20px;
+    display: none;
+}
+
+.bi{
+    font-size: 2rem;
+}
+
+.bi:hover{
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+
 @media only screen and (max-width: 890px) {
     .hide-when-mobile {
         display: none;
@@ -568,6 +632,29 @@ td {
 
     .musical-catalog-card {
         padding: 10px;
+    }
+
+    .custom-form *{
+        min-width: 0;
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .button{
+        max-width: 200px;
+    }
+
+    .form-horizontal-container{
+        display: grid;
+        justify-content:unset;
+    }
+
+    .replace-with-icon .desktop{
+        display: none;
+    }
+
+    .replace-with-icon .mobile{
+        display: flex;
     }
 }
 
@@ -580,6 +667,14 @@ td {
     .image-container,
     .image-container img {
         width: 100%;
+    }
+
+    .button{
+        max-width: none;
+    }
+
+    .replace-with-icon .mobile{
+        display: grid;
     }
 }
 

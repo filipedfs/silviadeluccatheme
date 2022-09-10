@@ -6,3 +6,15 @@ function changeCategory(categoryName) {
   }
   document.getElementById(categoryName).style.display = "block";
 }
+
+// counter 
+
+let textArea = document.getElementById("textarea");
+let characterCounter = document.getElementById("char_count");
+const maxNumOfChars = 100;
+
+const countCharacters = () => {
+  let numOfEnteredChars = textArea.value.length;
+  let counter = maxNumOfChars - numOfEnteredChars;
+  characterCounter.textContent = counter + "caracteres digitados.";
+};
