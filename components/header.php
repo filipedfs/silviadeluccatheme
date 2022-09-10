@@ -12,7 +12,7 @@ require_once(trailingslashit(get_template_directory()) . '/variables.php');
             <li><a href="/curriculum" class="nav-link">Curriculum</a></li>
             <li><a href="/catalogo-musical" class="nav-link">Catálogo Musical</a></li>
             <li><a href="/publicacoes" class="nav-link">Publicações</a></li>
-            <?php  echo $check = $dev ? '<li><a href="#" class="nav-link">Artigos</a></li>' : null ?>
+            <li><a href="/artigos" class="nav-link">Artigos</a></li>
             <?php  echo $check = $dev ? '<li><a href="#" class="nav-link">Midia</a></li>' : null ?>
             <li><a href="/contato" class="nav-link">Contato</a></li>
             <?php
