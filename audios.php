@@ -27,7 +27,7 @@
     <!-- Videos -->
     <?php
     require_once(trailingslashit(get_template_directory()) . 'load-videos.php');
-    $video_list = load_videos("UCJx1CBggGmRYtAWlVmO5qsQ", 10);
+    $video_list = load_videos("PLkKbqsoc9ce9uoRlEV8jZE5sGqa33PMPF");
     ?>
 
     <!-- Header -->
@@ -90,10 +90,10 @@
                         <?php
                         if (!empty($video_list->items)) {
                             foreach ($video_list->items as $item) {
-                                if (isset($item->id->videoId)) {
+                                if (isset($item->snippet->resourceId->videoId)) {
                         ?>
                                     <div class="video-template-iframe">
-                                        <iframe width="280" height="150" src="https://www.youtube.com/embed/<?php echo $item->id->videoId; ?>" frameborder="" allowfullscreen></iframe>
+                                        <iframe width="250" height="120" src="https://www.youtube.com/embed/<?php echo $item->snippet->resourceId->videoId; ?>" frameborder="" allowfullscreen></iframe>
                                     </div>
                         <?php
                                 }
