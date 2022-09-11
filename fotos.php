@@ -63,7 +63,7 @@
                         Regência: Ricardo Bologna
                     </p>
                 </div>
-                <div class="row-4-columns">
+                <div class="photo-gallery">
                     <div>
                         <a href="<?php echo get_template_directory_uri() ?>/assets/images/uploads/noticia/IMG-20191229-WA0029.jpg" class="fancybox" data-fancybox="gallery1">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/images/uploads/noticia/IMG-20191229-WA0029.jpg" class="img-lightbox" />
