@@ -65,7 +65,7 @@ require_once(trailingslashit(get_template_directory()) . '/variables.php');
                 <textarea id="textarea" class="input" placeholder="Escreva aqui sua mensagem em até 1.000 caracteres"></textarea>
                 <div class="form-horizontal-container">
                     <?php
-                    echo $check = $dev ? 
+                    echo $check = $dev ?
                         '<p class="basic-text" id="char_count">0 caracteres digitados.</p>'
                         : '<div></div>';
                     ?>
@@ -74,6 +74,8 @@ require_once(trailingslashit(get_template_directory()) . '/variables.php');
             </form>
         </div>
     </div>
+    <!-- Footer -->
+    <?php require_once(trailingslashit(get_template_directory()) . 'components/footer.php'); ?>
 </body>
 
 </html>

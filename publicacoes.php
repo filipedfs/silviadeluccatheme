@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: Silvia Publicações
  */
@@ -11,7 +12,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php require_once( trailingslashit( get_template_directory() ) . '/components/favicon.php' ); ?>
+    <?php require_once(trailingslashit(get_template_directory()) . '/components/favicon.php'); ?>
     <!-- Style -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/main.css">
@@ -38,8 +39,7 @@
             Livre. Série Especial Compositoras e Compositores do Brasil: “Silvia de Lucca: desejo e posso experimentar
             como compositora brasileira a diversidade que aqui está, mas sabendo não poder ou dever abarcar tudo. Por
             isso, deixo-me solta em minha própria linguagem”, publicada digitalmente no site do jornal:
-            <a target="alt" href="https://tribunadaimprensalivre.com/silvia-de-lucca-desejo-e-posso-experimentar-como-compositora-brasileira-a-diversidade-que-aqui-esta-mas-sabendo-nao-poder-ou-dever-abarcar-tudo-por-isso-deixo-me-solta-em-minha-propria-linguagem/"
-                class="custom-link">leia aqui
+            <a target="alt" href="https://tribunadaimprensalivre.com/silvia-de-lucca-desejo-e-posso-experimentar-como-compositora-brasileira-a-diversidade-que-aqui-esta-mas-sabendo-nao-poder-ou-dever-abarcar-tudo-por-isso-deixo-me-solta-em-minha-propria-linguagem/" class="custom-link">leia aqui
             </a>
             . Em 29 de Junho. São Paulo-SP
             <br><br>
@@ -141,6 +141,8 @@
             Londrina. Em julho. Londrina–PR
         </p>
     </div>
+    <!-- Footer -->
+    <?php require_once(trailingslashit(get_template_directory()) . 'components/footer.php'); ?>
 </body>
 
 </html>

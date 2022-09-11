@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: Silvia Homenagem
  */
@@ -19,7 +20,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-    <?php require_once( trailingslashit( get_template_directory() ) . '/components/favicon.php' ); ?>
+    <?php require_once(trailingslashit(get_template_directory()) . '/components/favicon.php'); ?>
     <!-- Style -->
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/main.css">
@@ -31,7 +32,7 @@
 
 <body>
     <!-- Header -->
-    <?php require_once( trailingslashit( get_template_directory() ) . 'components/header.php' ); ?>
+    <?php require_once(trailingslashit(get_template_directory()) . 'components/header.php'); ?>
     <!-- Content -->
     <div class="main-content">
         <br>
@@ -46,8 +47,7 @@
         <br><br>
         <div class="row-2-columns">
             <div class="iframe-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/jiEUXbK6RjQ"
-                    title="YouTube video player" frameborder="0" allow="
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jiEUXbK6RjQ" title="YouTube video player" frameborder="0" allow="
                         accelerometer; 
                         autoplay; 
                         clipboard-write; 
@@ -66,6 +66,8 @@
             </div>
         </div>
     </div>
+    <!-- Footer -->
+    <?php require_once(trailingslashit(get_template_directory()) . 'components/footer.php'); ?>
 </body>
 
 </html>

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: Silvia Noticia
  */
@@ -19,7 +20,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-    <?php require_once( trailingslashit( get_template_directory() ) . '/components/favicon.php' ); ?>
+    <?php require_once(trailingslashit(get_template_directory()) . '/components/favicon.php'); ?>
     <!-- Style -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/main.css">
@@ -95,11 +96,10 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
-
     </div>
+    <!-- Footer -->
+    <?php require_once(trailingslashit(get_template_directory()) . 'components/footer.php'); ?>
 </body>
 
 </html>

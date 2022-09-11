@@ -61,6 +61,8 @@
             “Você pensa que o fato de ser mulher tem alguma relação com o seu pensamento musical e até que ponto houve ou há um condicionamento – positivo, negativo, ou neutro- social?”
         </p>
     </div>
+    <!-- Footer -->
+    <?php require_once(trailingslashit(get_template_directory()) . 'components/footer.php'); ?>
 </body>
 
 </html>

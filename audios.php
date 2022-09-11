@@ -46,7 +46,7 @@
             <b class="subtitle subtitle-small">Composições próprias</b>
             <br><br><br>
             <div class="row-2-columns-full">
-                
+
                 <div class="medium-container">
                     <b class="subtitle subtitle-small">Intérpretes</b>
                     <br><br><br>
@@ -106,6 +106,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Footer -->
+    <?php require_once(trailingslashit(get_template_directory()) . 'components/footer.php'); ?>
 </body>
 
 </html>

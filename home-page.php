@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: Silvia Home Page
  */
@@ -11,7 +12,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php require_once( trailingslashit( get_template_directory() ) . '/components/favicon.php' ); ?>
+    <?php require_once(trailingslashit(get_template_directory()) . '/components/favicon.php'); ?>
     <!-- Style -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/main.css">
@@ -23,7 +24,7 @@
 
 <body>
     <!-- Header -->
-    <?php require_once( trailingslashit( get_template_directory() ) . 'components/header.php' ); ?>
+    <?php require_once(trailingslashit(get_template_directory()) . 'components/header.php'); ?>
     <!-- Content -->
     <div class="main-content">
         <div class="home-template">
@@ -66,10 +67,12 @@
                 </div>
             </div>
             <div class="home-template-image-container">
-                <img src="<?php echo get_template_directory_uri()?>/assets/images/uploads/home/portrait.jpg" alt="" />
+                <img src="<?php echo get_template_directory_uri() ?>/assets/images/uploads/home/portrait.jpg" alt="" />
             </div>
         </div>
     </div>
+    <!-- Footer -->
+    <?php require_once(trailingslashit(get_template_directory()) . 'components/footer.php'); ?>
 </body>
 
 </html>

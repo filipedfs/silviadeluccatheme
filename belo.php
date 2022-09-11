@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: Silvia Belo
  */
@@ -19,7 +20,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-    <?php require_once( trailingslashit( get_template_directory() ) . '/components/favicon.php' ); ?>
+    <?php require_once(trailingslashit(get_template_directory()) . '/components/favicon.php'); ?>
     <!-- Style -->
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/main.css">
@@ -31,7 +32,7 @@
 
 <body>
     <!-- Header -->
-    <?php require_once( trailingslashit( get_template_directory() ) . 'components/header.php' ); ?>
+    <?php require_once(trailingslashit(get_template_directory()) . 'components/header.php'); ?>
     <!-- Content -->
     <div class="main-content">
         <br>
@@ -52,13 +53,12 @@
                 <br><br>
                 *) @serjosoza
             </p>
-           
+
             <!-- Gallery -->
             <div class="center-container">
                 <div class="row-4-columns">
                     <div>
-                        <a href="<?php echo get_template_directory_uri() ?>/assets/images/uploads/belo/@serjosoza-1080x860.jpg" class="fancybox"
-                            data-fancybox="gallery1">
+                        <a href="<?php echo get_template_directory_uri() ?>/assets/images/uploads/belo/@serjosoza-1080x860.jpg" class="fancybox" data-fancybox="gallery1">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/images/uploads/belo/@serjosoza-1080x860.jpg" class="img-lightbox" />
                         </a>
                     </div>
@@ -66,6 +66,8 @@
             </div>
         </div>
     </div>
+    <!-- Footer -->
+    <?php require_once(trailingslashit(get_template_directory()) . 'components/footer.php'); ?>
 </body>
 
 </html>
