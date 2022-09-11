@@ -65,30 +65,151 @@
                 </div>
                 <div class="photo-gallery">
                     <div>
-                        <a href="<?php echo get_template_directory_uri() ?>/assets/images/uploads/noticia/IMG-20191229-WA0029.jpg" class="fancybox" data-fancybox="gallery1">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/uploads/noticia/IMG-20191229-WA0029.jpg" class="img-lightbox" />
+                        <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2021/07/Estudio-Salaviva-Espaco-Cachuera-SP-1.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2021/07/Estudio-Salaviva-Espaco-Cachuera-SP-1.jpg" class="img-lightbox" />
                         </a>
                     </div>
 
                     <div>
-                        <a href="<?php echo get_template_directory_uri() ?>/assets/images/uploads/noticia/20200101_214544.jpg" class="fancybox" data-fancybox="gallery1">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/uploads/noticia/20200101_214544.jpg" class="img-lightbox" />
+                        <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2021/07/Estudio-Salaviva-Espaco-Cachuera-SP-4.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2021/07/Estudio-Salaviva-Espaco-Cachuera-SP-4.jpg" class="img-lightbox" />
                         </a>
                     </div>
 
                     <div>
-                        <a href="<?php echo get_template_directory_uri() ?>/assets/images/uploads/noticia/IMG-20191229-WA0031.jpg" class="fancybox" data-fancybox="gallery1">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/uploads/noticia/IMG-20191229-WA0031.jpg" class="img-lightbox" />
+                        <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2021/07/Estudio-Salaviva-Espaco-Cachuera-SP-5.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2021/07/Estudio-Salaviva-Espaco-Cachuera-SP-5.jpg" class="img-lightbox" />
                         </a>
                     </div>
 
                     <div>
-                        <a href="<?php echo get_template_directory_uri() ?>/assets/images/uploads/noticia/img3708.jpg" class="fancybox" data-fancybox="gallery1">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/uploads/noticia/img3708.jpg" class="img-lightbox" />
+                        <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2021/07/Estudio-Salaviva-Espaco-Cachuera-SP-8.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2021/07/Estudio-Salaviva-Espaco-Cachuera-SP-8.jpg" class="img-lightbox" />
                         </a>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row-2-columns-basic">
+            <div>
+                <p class="basic-text">12/02/2021</p>
+            </div>
+            <div>
+                <div>
+                    <b class="subtitle subtitle-small">
+                        "Em Memória"
+                        de Silvia de Lucca
+                        em concerto
+                    </b>
+                    <br><br><br>
+                    <p class="basic-text">
+                        Sala São Paulo
+                        Orquestra Sinfônica da USP
+                        Regência: Catherine Larsen-Maguire
+                    </p>
+                </div>
+                <div class="photo-gallery">
+                    <div>
+                        <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2020/02/d.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2020/02/d.jpg" class="img-lightbox" />
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2020/02/f.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2020/02/f.jpg" class="img-lightbox" />
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2020/02/b.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2020/02/b.jpg" class="img-lightbox" />
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2020/02/8-1.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2020/02/8-1.jpg" class="img-lightbox" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-gallery">
+            <b class="subtitle subtitle-small"> Solo </b>
+            <br><br><br><br>
+            <ul class="image-gallery">
+                <li>
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2020/02/2.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2020/02/2.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2019/08/Rogerio-Neves_BaixaRN.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2019/08/Rogerio-Neves_BaixaRN.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2016/03/Untitled-1.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2016/03/Untitled-1.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2016/08/Silvia-alta-resolucao-005.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2016/08/Silvia-alta-resolucao-005.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2020/02/82.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2020/02/82.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2019/08/Silvia-alta-resolução-003.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2019/08/Silvia-alta-resolução-003.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2016/03/Me-10.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2016/03/Me-10.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2019/08/Baden-2017.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2019/08/Baden-2017.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2020/02/5.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2020/02/5.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo get_template_directory_uri() ?>//assets/uploads/2016/03/Me-7.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2016/03/Me-7.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2016/08/Silvia-alta-resolucao-006.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2016/08/Silvia-alta-resolucao-006.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2016/08/Wal-4-alta-resolucao.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2016/08/Wal-4-alta-resolucao.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2019/08/abril_2017.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2019/08/abril_2017.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/uploads/2016/08/Superacao-set.2013-e1565456760841.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/uploads/2016/08/Superacao-set.2013-e1565456760841.jpg" alt="" />
+                    </a>
+                </li>
+            </ul>
         </div>
 </body>
 
