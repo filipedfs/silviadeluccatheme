@@ -32,33 +32,35 @@
         <br><br>
         <hr />
         <br><br>
-        <a href="/audios">
-            <div class="midia-card">
-                <div class="midia-card-header">
-                    <i class="bi bi-mic-fill"></i>
-                    <p>Audios</p>
+        <div class="animated animatedFadeInUp fadeInUp">
+            <a href="/audios">
+                <div class="midia-card">
+                    <div class="midia-card-header">
+                        <i class="bi bi-mic-fill"></i>
+                        <p>Audios</p>
+                    </div>
+                    <div class="midia-chevron"><i class="bi bi-chevron-right"></i></div>
                 </div>
-                <div class="midia-chevron"><i class="bi bi-chevron-right"></i></div>
-            </div>
-        </a>
-        <a href="/videos">
-            <div class="midia-card">
-                <div class="midia-card-header">
-                    <i class="bi bi-play-fill"></i>
-                    <p>Videos</p>
+            </a>
+            <a href="/videos">
+                <div class="midia-card">
+                    <div class="midia-card-header">
+                        <i class="bi bi-play-fill"></i>
+                        <p>Videos</p>
+                    </div>
+                    <div class="midia-chevron"><i class="bi bi-chevron-right"></i></div>
                 </div>
-                <div class="midia-chevron"><i class="bi bi-chevron-right"></i></div>
-            </div>
-        </a>
-        <a href="/fotos">
-            <div class="midia-card">
-                <div class="midia-card-header">
-                    <i class="bi bi-camera-fill"></i>
-                    <p>Fotos</p>
+            </a>
+            <a href="/fotos">
+                <div class="midia-card">
+                    <div class="midia-card-header">
+                        <i class="bi bi-camera-fill"></i>
+                        <p>Fotos</p>
+                    </div>
+                    <div class="midia-chevron"><i class="bi bi-chevron-right"></i></div>
                 </div>
-                <div class="midia-chevron"><i class="bi bi-chevron-right"></i></div>
-            </div>
-        </a>
+            </a>
+        </div>
     </div>
 </body>
 
