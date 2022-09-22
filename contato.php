@@ -56,13 +56,13 @@ require_once(trailingslashit(get_template_directory()) . '/variables.php');
                 </div>
             </div>
 
-            <form class="custom-form">
+            <form class="custom-form" method="post" action="">
                 <div class="form-horizontal-container">
-                    <input class="input" type="text" id="" class="" placeholder="Nome" />
-                    <input class="input" type="text" id="" class="" placeholder="E-mail" />
+                    <input class="input" type="text" id="your-name" name="your-name" class="" placeholder="Nome" required/>
+                    <input class="input" type="text" id="your-email" name="your-email" class="" placeholder="E-mail" required/>
                 </div>
-                <input class="input" type="text" id="" class="" placeholder="Assunto" />
-                <textarea id="textarea" class="input" placeholder="Escreva aqui sua mensagem em até 1.000 caracteres"></textarea>
+                <input class="input" type="text" id="your-subject" name="your-subject" class="" placeholder="Assunto" required/>
+                <textarea id="your-message" name="your-message" class="input" placeholder="Escreva aqui sua mensagem em até 1.000 caracteres" required></textarea>
                 <div class="form-horizontal-container">
                     <?php
                     echo $check = $dev ?
