@@ -1,16 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Roboto&family=Roboto Slab&display=swap');
 
 :root {
     --bg-color: #F7E7CE;
     --primary-color: #FF4500;
     --primary-color-font: #2F2E2D;
     --background-with-opacity: #2f2e2d09;
-    --secondary-color-font: #6D6D6D;
+    --secondary-color-font: #8D8D8D;
     --white: #FFF;
     --silver: #d6d6d6;
     --soft-silver: #f3f3f3;
     --blue: #D1E5EE;
     --soft-blue: #E6F5FC;
+}
+
+p, li {
+  font-family: 'Roboto Slab', serif;
+  color: var(--secondary-color-font);
+  line-height: 1.25em;
 }
 
 body {
@@ -24,7 +30,7 @@ img {
 
 .title {
     color: var(--primary-color);
-    font-size: 2.5rem;
+    font-size: 3rem;
     letter-spacing: 4px;
     font-family: 'Exo', sans-serif;
     font-weight: 800;
@@ -63,14 +69,21 @@ hr {
     font-weight: bolder;
 }
 
+.bold-silver {
+  color: var(--secondary-color-font);
+  font-weight: bolder;
+  line-height: 1.15em;
+}
+
 .basic-text, .basic-list, .basic-ul li{
     color: var(--secondary-color-font);
-    font-family: serif;
-    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
 }
 
 .description {
     font-size: 1.3rem;
+    line-height: 1.15em;
     color: var(--secondary-color-font);
     letter-spacing: 2px;
     animation-delay: 0.3s;
@@ -133,9 +146,11 @@ hr {
 }
 
 .header-text-logo {
-    color: var(--secondary-color-font);
-    font-weight: lighter;
+    color: #AAA;
+    font-weight: 100;
     font-style: italic;
+    font-size: 1.5em !important;
+  margin-left: 5em;
 }
 
 .select-language ul {
@@ -502,13 +517,13 @@ td {
     gap: 10px;
     justify-content: center;
   }
-  
+
   .image-gallery > li {
     height: 300px;
     cursor: pointer;
     position: relative;
   }
-  
+
   .image-gallery li img {
     object-fit: cover;
     width: 100%;
@@ -586,10 +601,9 @@ td {
     }
 }
 
-.basic-list li{
+.basic-list li {
     padding-top: 10px;
     opacity: 0.8;
-    font-family: serif;
 }
 
 .custom-link{
@@ -602,7 +616,7 @@ td {
     color: var(--white);
     height: auto;
     width: auto;
-    padding: 10px 15px;
+    padding: 15px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -613,7 +627,7 @@ td {
 .first-stanza{
     display: flex;
     gap: 15px;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 /* Forms */
@@ -654,8 +668,8 @@ td {
     gap: 20px;
 }
 
-textarea { 
-    resize: vertical; 
+textarea {
+    resize: vertical;
 }
 
 .form-horizontal-container div, .form-horizontal-container div *{
@@ -685,7 +699,7 @@ textarea {
     justify-content: right;
     align-items: center;
     gap: 10px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .read-more .bi{
@@ -766,7 +780,7 @@ footer{
     padding: 25px 5vw;
     color: var(--secondary-color-font);
     font-family: serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -834,7 +848,7 @@ footer{
         height: auto;
     }
 
-    
+
 
     .button{
         max-width: none;
@@ -864,7 +878,7 @@ footer{
         padding-bottom: 56.25%;
         height: 0;
     }
-    
+
     .iframe-container-basic iframe {
         position: absolute;
         top: 0;
@@ -925,7 +939,7 @@ footer{
         margin-right: 10px;
         box-sizing: border-box;
     }
-    
+
     .video-template-iframe iframe {
         position: absolute;
         top: 0;

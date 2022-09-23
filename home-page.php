@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <!-- Bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <title>Silvia de LUCCA</title>
+    <title>Silvia DE LUCCA</title>
     <?php wp_head(); ?>
 </head>
 
@@ -29,15 +29,16 @@
     <div class="main-content">
         <div class="home-template">
             <div class="home-content">
-                <h1 class="title animated animatedFadeInUp fadeInUp">Silvia <br />de LUCCA</h1>
+                <h1 class="title animated animatedFadeInUp fadeInUp">Silvia <br />DE LUCCA</h1>
                 <p class="description animated animatedFadeInUp fadeInUp">
                     Compositora, <br />
                     Mestre em Artes, <br />
                     Graduada em Piano e Psicologia, <br />
                     Apaixonada por Educação e Sociologia.
                 </p>
-                <p class="bold-italic-silver">A parceria enriquece o fazer e determinados conteúdos merecem ser
-                    compartilhados:</p>
+                <p class="bold-silver">
+                  A parceria enriquece o fazer e determinados conteúdos merecem ser compartilhados:
+                </p>
 
                 <div class="home-template-topics">
                     <a href="/noticia-2">

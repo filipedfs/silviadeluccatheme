@@ -2,7 +2,11 @@
 require_once(trailingslashit(get_template_directory()) . '/variables.php');
 ?>
 <header class="silvia-header">
-  <h1 class="header-text-logo">Silvia de LUCCA</h1>
+    <?php if (!is_front_page()) { ?>
+      <h1 class="header-text-logo">Silvia DE LUCCA</h1>
+    <?php } else { ?>
+      <div></div>
+    <?php } ?>
   <nav class="silvia-nav">
     <label class="mobile-menu" for="mobile-menu"><i class="bi bi-list"></i></label>
     <input class="mobile-menu" type="checkbox" id="mobile-menu" />
@@ -838,8 +842,8 @@ require_once(trailingslashit(get_template_directory()) . '/variables.php');
         <ul>
           <li>
             <a
-                href="<?= get_site_url(); ?>"
-                onclick="doGTranslate('en|pt')"
+                href="#"
+                onclick="doGTranslate('pt|pt');jQuery('span.language-switcher').html(jQuery(this).html());return false;"
                 title="Português"
             >
               <img src="<?= get_template_directory_uri() ?>/assets/images/flags/br.png" />
@@ -848,7 +852,7 @@ require_once(trailingslashit(get_template_directory()) . '/variables.php');
           <li>
             <a
                 href="#"
-                onclick="doGTranslate('en|de');jQuery('span.language-switcher').html(jQuery(this).html());return false;"
+                onclick="doGTranslate('pt|de');jQuery('span.language-switcher').html(jQuery(this).html());return false;"
                 title="Deutsch"
             >
               <img src="<?= get_template_directory_uri() ?>/assets/images/flags/de.png" />
@@ -856,8 +860,8 @@ require_once(trailingslashit(get_template_directory()) . '/variables.php');
           </li>
           <li>
             <a
-                href="<?= get_site_url(); ?>/en/home/"
-                onclick="doGTranslate('pt|en')"
+                href="#"
+                onclick="doGTranslate('pt|en');jQuery('span.language-switcher').html(jQuery(this).html());return false;"
                 title="English"
             >
               <img src="<?= get_template_directory_uri() ?>/assets/images/flags/gb.png" />
