@@ -46,7 +46,7 @@ $json_data = json_decode($json, true);
         $type = $data['type'];
         $items = $data['items'];
         ?>
-      <div id="<?= $type ?>" class="category animated animatedFadeInUp fadeInUp" <?= ($i != 0) ? 'style="display:none;"' : '' ?>>
+      <div id="<?= $type ?>" class="musical-catalog-table-wrapper category animated animatedFadeInUp fadeInUp" <?= ($i != 0) ? 'style="display:none;"' : '' ?>>
         <table class="musical-catalog-table">
           <thead>
           <tr>
