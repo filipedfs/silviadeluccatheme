@@ -3,7 +3,11 @@ require_once(trailingslashit(get_template_directory()) . '/variables.php');
 ?>
 <header class="silvia-header">
     <?php if (!is_front_page()) { ?>
-      <h1 class="header-text-logo">Silvia DE LUCCA</h1>
+      <h1>
+        <a class="header-text-logo" href="<?= site_url() ?>">
+          Silvia DE LUCCA
+        </a>
+      </h1>
     <?php } else { ?>
       <div></div>
     <?php } ?>

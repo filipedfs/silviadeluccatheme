@@ -19,7 +19,7 @@
 <!-- Content -->
 <div class="main-content">
   <br>
-  <h3 class="subtitle">Publicações</h3>
+  <h3 class="subtitle">Artigos</h3>
   <br><br>
   <hr />
   <br><br>

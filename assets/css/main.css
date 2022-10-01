@@ -16,7 +16,11 @@
 p, li {
   font-family: 'Roboto Slab', serif;
   color: var(--secondary-color-font);
-  line-height: 1.25em;
+  line-height: 1.5em;
+}
+
+p {
+  margin-bottom: 1em;
 }
 
 body {
@@ -42,6 +46,11 @@ img {
     letter-spacing: 4px;
     font-family: 'Exo', sans-serif;
     text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+footer {
+  font-family: 'Roboto Slab', serif;
 }
 
 .subtitle-container {
