@@ -37,7 +37,7 @@
                 <div class="midia-card">
                     <div class="midia-card-header">
                         <i class="bi bi-mic-fill"></i>
-                        <p>Audios</p>
+                        <p>Áudios</p>
                     </div>
                     <div class="midia-chevron"><i class="bi bi-chevron-right"></i></div>
                 </div>
@@ -46,7 +46,7 @@
                 <div class="midia-card">
                     <div class="midia-card-header">
                         <i class="bi bi-play-fill"></i>
-                        <p>Videos</p>
+                        <p>Vídeos</p>
                     </div>
                     <div class="midia-chevron"><i class="bi bi-chevron-right"></i></div>
                 </div>

@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo&family=Roboto&family=Roboto Slab&display=swap');
 
 :root {
-    --bg-color: #F7E7CE;
+    /*--bg-color: #F7E7CE;*/
+    /*--bg-color: #fff9b8;*/
+    --bg-color: #feffed; /* marfim */
+    /*--bg-color: #fffae2; !* pérola *!*/
     --primary-color: #FF4500;
     --primary-color-font: #2F2E2D;
     --background-with-opacity: #2f2e2d09;
-    --secondary-color-font: #8D8D8D;
+    /*--secondary-color-font: #8D8D8D;*/
+    --secondary-color-font: #777;
     --white: #FFF;
     --silver: #d6d6d6;
     --soft-silver: #f3f3f3;
@@ -13,10 +17,20 @@
     --soft-blue: #E6F5FC;
 }
 
-p, li, strong {
-  font-family: 'Roboto Slab', serif;
+p, li, strong, footer, table, td, th, b, a, input, textarea {
+  font-family: 'Trebuchet MS', serif;
   color: var(--secondary-color-font);
   line-height: 1.5em;
+}
+
+h3 {
+  margin-bottom: 1em;
+  font-size: 1.25em;
+  color: var(--secondary-color-font);
+}
+
+a {
+  color: var(--primary-color-font);
 }
 
 p {
@@ -40,6 +54,10 @@ img {
     font-weight: 800;
 }
 
+.home-page-subsubtitle {
+
+}
+
 .subtitle {
     color: var(--primary-color);
     font-size: 2rem;
@@ -47,10 +65,6 @@ img {
     font-family: 'Exo', sans-serif;
     text-transform: uppercase;
     margin-bottom: 1em;
-}
-
-footer {
-  font-family: 'Roboto Slab', serif;
 }
 
 .subtitle-container {
@@ -61,7 +75,6 @@ footer {
 }
 
 .subtitle-small {
-    color: var(--secondary-color-font);
     font-size: 1.4rem;
     font-weight: 800;
     letter-spacing: 4px;
@@ -86,7 +99,6 @@ hr {
 
 .basic-text, .basic-list, .basic-ul li{
     color: var(--secondary-color-font);
-    font-family: 'Roboto Slab', serif;
     font-size: 1rem;
 }
 
@@ -205,7 +217,7 @@ input[type="checkbox"] {
 }
 
 .main-content {
-    min-height: 100vh;
+    min-height: 93vh;
     box-sizing: border-box;
     padding: 100px 10vw;
     overflow-x: hidden;
@@ -255,22 +267,22 @@ input[type="checkbox"] {
 }
 
 #texture-a {
-    background-image: url(../images/textures/spiral.png);
+    background-image: url(../images/textures/noticia.png);
     background-size: cover;
 }
 
 #texture-b {
-    background-image: url(../images/textures/smoke.png);
+    background-image: url(../images/textures/belo.png);
     background-size: cover;
 }
 
 #texture-c {
-    background-image: url(../images/textures/water.png);
+    background-image: url(../images/textures/reflexao.png);
     background-size: cover;
 }
 
 #texture-d {
-    background-image: url(../images/textures/wood.png);
+    background-image: url(../images/textures/homenagem.png);
     background-size: cover;
 }
 
@@ -656,6 +668,7 @@ td {
     outline: none;
     width: 100%;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 .input:focus{
@@ -796,8 +809,7 @@ footer{
     align-items: center;
     padding: 25px 5vw;
     color: var(--secondary-color-font);
-    font-family: serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 @media only screen and (max-width: 1200px) {

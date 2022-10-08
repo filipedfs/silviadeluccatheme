@@ -36,11 +36,12 @@ require_once(trailingslashit(get_template_directory()) . '/variables.php');
         <br><br>
         <div class="center-container-grid">
 
-            <h3 class="subtitle">Redes sociais</h3><br><br>
+            <h3 class="subtitle">Redes sociais</h3>
             <div class="replace-with-icon">
                 <div class="desktop">
-                    <p>YouTube: <a href="#" class="custom-link">https://www.youtube.com/channel/UCJx1CBggGmRYtAWlVmO5qsQ</a></p><br><br>
-                    <p>Instagram: <a href="#" class="custom-link">https://www.instagram.com/_silvia_de_lucca/</a></p>
+                    <p>YouTube: <a href="https://www.youtube.com/channel/UCJx1CBggGmRYtAWlVmO5qsQ" class="custom-link" target="_blank">https://www.youtube.com/channel/UCJx1CBggGmRYtAWlVmO5qsQ</a></p>
+                    <p>Instagram: <a href="https://www.instagram.com/_silvia_de_lucca/" class="custom-link" target="_blank">https://www.instagram.com/_silvia_de_lucca/</a></p>
+                    <p>Facebook: <a href="https://www.facebook.com/silvia.d.lucca" class="custom-link" target="_blank">https://www.facebook.com/silvia.d.lucca</a></p>
                 </div>
                 <div class="mobile">
                     <a href="https://www.youtube.com/channel/UCJx1CBggGmRYtAWlVmO5qsQ">
@@ -53,22 +54,27 @@ require_once(trailingslashit(get_template_directory()) . '/variables.php');
                         <br><br>
                         <p>@_silvia_de_lucca</p>
                     </a>
+                  <a href="https://www.facebook.com/silvia.d.lucca">
+                    <i class="bi bi-facebook"></i>
+                    <br><br>
+                    <p>Silvia de Lucca</p>
+                  </a>
                 </div>
             </div>
 
             <form class="custom-form" method="post" action="">
                 <div class="form-horizontal-container">
-                    <input class="input" type="text" id="your-name" name="your-name" class="" placeholder="Nome" required/>
-                    <input class="input" type="text" id="your-email" name="your-email" class="" placeholder="E-mail" required/>
+                    <input class="input" type="text" id="your-name" name="your-name" placeholder="Nome" required/>
+                    <input class="input" type="text" id="your-email" name="your-email" placeholder="E-mail" required/>
                 </div>
-                <input class="input" type="text" id="your-subject" name="your-subject" class="" placeholder="Assunto" required/>
+                <input class="input" type="text" id="your-subject" name="your-subject" placeholder="Assunto" required/>
                 <textarea id="your-message" name="your-message" class="input" placeholder="Escreva aqui sua mensagem em até 1.000 caracteres" required></textarea>
                 <div class="form-horizontal-container">
-                    <?php
-                    echo $check = $dev ?
-                        '<p class="basic-text" id="char_count">0 caracteres digitados.</p>'
-                        : '<div></div>';
-                    ?>
+<!--                    --><?php
+//                    echo $check = $dev ?
+//                        '<p class="basic-text" id="char_count">0 caracteres digitados.</p>'
+//                        : '<div></div>';
+//                    ?>
                     <button class="button" type="submit">Enviar</button>
                 </div>
             </form>

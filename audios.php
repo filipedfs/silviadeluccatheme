@@ -48,8 +48,6 @@
             <div class="row-2-columns-full">
 
                 <div class="medium-container">
-                    <b class="subtitle subtitle-small">Intérpretes</b>
-                    <br><br><br>
                     <ul class="basic-ul">
                         <li class="li-bolder"> Circuloníricos (2013)</li>
                         <li> Grupo de Percussão do Nordeste</li>
@@ -105,6 +103,10 @@
                     </div>
                 </div>
             </div>
+          <hr/>
+          <div>
+
+          </div>
         </div>
     </div>
     <!-- Footer -->

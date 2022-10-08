@@ -36,7 +36,7 @@
                     Graduada em Piano e Psicologia, <br />
                     Apaixonada por Educação e Sociologia.
                 </p>
-                <p class="bold-silver">
+                <p class="home-page-subsubtitle">
                   A parceria enriquece o fazer e determinados conteúdos merecem ser compartilhados:
                 </p>
 
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="home-template-image-container">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/images/uploads/home/portrait.jpg" alt="" />
+                <img src="<?php echo get_template_directory_uri() ?>/assets/images/uploads/home/silvia2.jpg" alt="" />
             </div>
         </div>
     </div>

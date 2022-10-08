@@ -55,7 +55,7 @@ $json_data = json_decode($json, true);
             <th>Intrumentação</th>
             <th>Duração</th>
             <th>Edição ou onde obter o material</th>
-            <th class="hide-when-mobile">Observações<br />Text, estreia, intérpretes, gravação, prêmio</th>
+            <th class="hide-when-mobile">Observações<br />Texto, estreia, intérpretes, gravação, prêmio</th>
           </tr>
           </thead>
           <tbody>

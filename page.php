@@ -25,7 +25,7 @@
             ?>
           <h3 class="subtitle"><?= get_the_title() ?></h3>
           <div class="basic-text">
-              <?= get_the_content(); ?>
+              <?php the_content(); ?>
           </div>
         <?php }
     }
