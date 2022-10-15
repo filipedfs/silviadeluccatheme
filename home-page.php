@@ -26,7 +26,7 @@
     <!-- Header -->
     <?php require_once(trailingslashit(get_template_directory()) . 'components/header.php'); ?>
     <!-- Content -->
-    <div class="main-content">
+    <div class="main-content home">
         <div class="home-template">
             <div class="home-content">
                 <h1 class="title animated animatedFadeInUp fadeInUp">Silvia <br />DE LUCCA</h1>
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="home-template-image-container">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/images/uploads/home/silvia2.jpg" alt="" />
+                <img class="home-template-image" src="<?php echo get_template_directory_uri() ?>/assets/images/uploads/home/silvia2.jpg" alt="" />
             </div>
         </div>
     </div>
