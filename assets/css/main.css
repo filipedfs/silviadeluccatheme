@@ -55,7 +55,7 @@ img {
 }
 
 .home-page-subsubtitle {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .subtitle {
@@ -231,7 +231,7 @@ input[type="checkbox"] {
 
 .home-template {
     display: flex;
-    gap: 30px;
+    gap: 50px;
     width: 100%;
     justify-content: space-between;
 }
@@ -240,6 +240,7 @@ input[type="checkbox"] {
     display: flex;
     align-items: center;
     max-height: 85vh;
+    align-self: center;
 }
 
 .home-template-image {
@@ -265,7 +266,6 @@ input[type="checkbox"] {
     justify-content: center;
     gap: 5px;
     text-align: center;
-    width: 100px;
 }
 
 .home-topic > p {
@@ -582,14 +582,16 @@ td {
 @media only screen and (max-width: 1000px) {
     .home-template {
         width: 100% !important;
+        display: flex;
+      flex-direction: column-reverse;
     }
+
+  .home-template-image-container {
+    align-self: normal;
+  }
 
     .mobile-menu {
         display: block;
-    }
-
-    .home-template {
-        display: grid;
     }
 
     .silvia-nav ul {
@@ -626,7 +628,7 @@ td {
     }
 
     .main-content {
-        padding: 90px 5vw;
+        padding: 90px 5vw 40px;
     }
 
     .select-language {
@@ -730,7 +732,7 @@ textarea {
 }
 
 .bi{
-    font-size: 2rem;
+    font-size: 2rem !important;
 }
 
 .bi:hover{
@@ -824,9 +826,10 @@ footer{
     background-color: var(--white);
     display: flex;
     align-items: center;
-    padding: 25px 5vw;
+    padding: 0 5vw;
     color: var(--secondary-color-font);
     font-size: 0.9rem;
+  height: 60px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -933,6 +936,14 @@ footer{
         height: 100%;
         max-height: 300px;
     }
+
+    .home-topic > p {
+      font-size: 0.85em;
+    }
+    .home-topic > .circle {
+      width: 34px;
+      height: 34px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -963,6 +974,10 @@ footer{
     .description {
         font-size: 1rem;
     }
+
+  .home-page-subsubtitle {
+    font-size: 1rem;
+  }
 
     .midia-card-header .bi{
         padding: 15px;
