@@ -45,7 +45,7 @@
     </div>
     <div>
       <h3 class="subtitle subtitle-small">Presença em Eventos</h3>
-      <ul>
+      <ul class="apresentacao">
         <li>Entrevista - SOM na tELA – ELA TV – Escola Livre de Artes (evento on-line);</li>
         <li>Entrevista - Série Especial: Compositoras e Compositores do Brasil - site Tribuna da Imprensa Livre – Jornalismo em defesa do Brasil!;</li>
         <li>Entrevista - Você é Top - TV Relacionamento - São Paulo;</li>

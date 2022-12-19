@@ -75,9 +75,7 @@
         Em Zurique (1990) e em São Paulo (1996, 2010 e 2014) foram realizados concertos totalmente dedicados
         às suas obras.
       </p>
-    </div>
-    <div>
-      <p class="basic-text">
+      <p>
         Como compositora participou ainda de diversos eventos musicais, tais como: . Festivais Música Nova -
         São Paulo, Ribeirão Preto e Santos; . Bienais de Música Brasileira Contemporânea - Rio de Janeiro; .
         Encontro de Compositores Latino-Americano - Porto Alegre; . Encontro Latino-americano de
@@ -85,7 +83,10 @@
         Suíça; . Festivais Internacionais de Mulheres Compositoras - São Paulo e Poços de Caldas; . Festival
         de Inverno de Campos do Jordão; . Seminário A Mulher na Música - Rio de Janeiro; . 1ª Semana da
         Música FIAM-FAAM - São Paulo.
-        <br><br>
+      </p>
+    </div>
+    <div>
+      <p class="basic-text">
         Prioritariamente dedica-se à composição, às atividades como docente em algumas disciplinas musicais
         e ao seu projeto “Eu adoro música, mas não entendo nada!”, ministrado desde 1992 com diferentes
         nomes, em diferentes instituições, destinado ao grande público interessado em conhecimento musical e
@@ -110,7 +111,8 @@
         participado de grupos de estudo, simpósios, fóruns, associações, mesas redondas, etc.
         <br><br>
         De 2014 a 2018 dedicou-se prioritariamente à organização do Acervo e respectivo Banco de Dados do
-        compositor Mario Ficarelli.
+        compositor Mario Ficarelli, além de coordenar a edição independente do método MUSISSIMPHOS® desse compositor,
+        finalizada em 2020, destinado a orquestra de iniciantes.
       </p>
     </div>
   </div>

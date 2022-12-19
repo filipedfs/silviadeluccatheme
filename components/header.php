@@ -12,7 +12,11 @@ require_once(trailingslashit(get_template_directory()) . '/variables.php');
       <div></div>
     <?php } ?>
   <nav class="silvia-nav">
-    <label class="mobile-menu" for="mobile-menu"><i class="bi bi-list"></i></label>
+    <label class="mobile-menu" for="mobile-menu">
+      <span style="display: flex;flex-direction: row;align-items: center">
+        <span style="color:#BBB">Menu</span>&nbsp;<i class="bi bi-list"></i>
+      </span>
+    </label>
     <input class="mobile-menu" type="checkbox" id="mobile-menu" />
       <?php
       $locations = get_nav_menu_locations();
