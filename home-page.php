@@ -22,7 +22,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body class="homepage">
 <!-- Header -->
 <?php require_once(trailingslashit(get_template_directory()) . 'components/header.php'); ?>
 <!-- Mobile Content -->
@@ -65,10 +65,18 @@
             merecem ser compartilhados:
         </p>
         <div class="buttons">
-            <div class="button belo">Belo</div>
-            <div class="button noticia">Notícia</div>
-            <div class="button reflexao">Reflexão</div>
-            <div class="button homenagem">Homenagem</div>
+            <div class="button belo">
+                <a href="/belo-3">Belo</a>
+            </div>
+            <div class="button noticia">
+                <a href="/noticia-2">Notícia</a>
+            </div>
+            <div class="button reflexao">
+                <a href="/reflexao">Reflexão</a>
+            </div>
+            <div class="button homenagem">
+                <a href="/homenagem">Homenagem</a>
+            </div>
         </div>
         <div class="footer">
             <p class="footer-text">&copy; Copyright 2022 Silvia de Lucca | Todos os Direitos</p>

@@ -1040,17 +1040,17 @@ footer{
 }
 
 @media only screen and (max-width: 600px) {
-    .home.desktop, footer, .mobile-menu.desktop
+    .homepage .home.desktop, .homepage footer, .homepage .mobile-menu.desktop
     /*, .silvia-header*/
     {
         display: none;
     }
 
-    .silvia-nav ul {
+    .homepage .silvia-nav ul {
         top: 0;
     }
 
-    .silvia-header {
+    .homepage .silvia-header {
         background-color: unset;
         box-shadow: none;
     }
@@ -1216,8 +1216,12 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .home.mobile .bottom .button a {
         font-size: 5vw;
         font-weight: 500;
+        color: white;
     }
 
     .home.mobile .bottom .button.belo {
