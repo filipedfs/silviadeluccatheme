@@ -12,7 +12,7 @@ require_once(trailingslashit(get_template_directory()) . '/variables.php');
       <div></div>
     <?php } ?>
   <nav class="silvia-nav">
-    <label class="mobile-menu" for="mobile-menu">
+    <label class="mobile-menu desktop" for="mobile-menu">
       <span style="display: flex;flex-direction: row;align-items: center">
         <span style="color:#BBB">Menu</span>&nbsp;<i class="bi bi-list"></i>
       </span>
@@ -768,6 +768,13 @@ require_once(trailingslashit(get_template_directory()) . '/variables.php');
 
       ?>
     <ul>
+        <li class="menu-close">
+            <label class="mobile-menu" for="mobile-menu">
+      <span style="display: flex;flex-direction: row;align-items: center">
+        <span style="color:#BBB">X</span>
+      </span>
+            </label>
+        </li>
         <?php
         foreach ($menu_items as $menu_item) {
             if ($menu_item->menu_item_parent == 0) {

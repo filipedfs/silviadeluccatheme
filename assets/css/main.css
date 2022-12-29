@@ -1030,3 +1030,234 @@ footer{
 
     }
 }
+
+.home.mobile {
+    display: none;
+}
+
+.menu-close {
+    display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .home.desktop, footer, .mobile-menu.desktop
+    /*, .silvia-header*/
+    {
+        display: none;
+    }
+
+    .silvia-nav ul {
+        top: 0;
+    }
+
+    .silvia-header {
+        background-color: unset;
+        box-shadow: none;
+    }
+
+    .home.mobile {
+        display: block;
+    }
+
+    .home.mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home.mobile .top {
+        height: 100vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        gap: 5vh;
+    }
+
+    .home.mobile .title {
+        text-align: left;
+        /*min-width: 200px;*/
+        /*border: 1px black solid;*/
+    }
+
+    .home.mobile .title .name {
+        font-weight: 600;
+        color: #ff4600;
+        font-family: "Open Sans", sans-serif;
+        font-size: 10vw;
+        letter-spacing: 0;
+    }
+
+    .home.mobile .title .surname {
+        font-weight: 800;
+        color: #ff4600;
+        font-family: "Open Sans", sans-serif;
+        font-size: 10vw;
+        letter-spacing: 0;
+    }
+
+    .home.mobile .portrait {
+        width: 60vw;
+        height: calc(60vw * 1.25);
+        border-radius: 10%;
+        overflow: hidden;
+        background-image: url("https://silviadelucca.art.br/wp-content/themes/silviadeluccatheme/assets/images/uploads/home/silvia2.jpg");
+        background-size: cover;
+        background-position: center center;
+        transform: scaleX(-1);
+    }
+
+    .home.mobile .more {
+        display: flex;
+        gap: 2vw;
+        justify-content: center;
+    }
+
+    .home.mobile .more .dot {
+        /*border: 1px solid black;*/
+        border-radius: 50%;
+        width: 2.5vw;
+        height: 2.5vw;
+        background-color: #ff4600;
+        display: inline-block;
+    }
+
+    .menu-close {
+        display: block !important;
+        position: absolute;
+        top: -20px;
+        right: 20px;
+    }
+
+    .mobile-menu.mobile {
+        background-color: white;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 0 12px rgba(0,0,0,0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3vw;
+    }
+
+    .mobile-menu.mobile .menu-name {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 8vw;
+        font-weight: 600;
+        color: gray;
+    }
+
+    .mobile-menu.mobile .menu-icon {
+        font-size: 10vw;
+        font-weight: 800;
+        color: gray;
+    }
+
+    .home.mobile .bottom {
+        height: 100vh;
+        width: 100vw;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /*gap: 5vh;*/
+    }
+
+    .home.mobile .bottom .title {
+        padding-right: 2vw;
+        padding-left: 2vw;
+        color: gray;
+        font-weight: 800;
+        /*color: #ff4600;*/
+        line-height: 1.25;
+        font-family: "Open Sans", sans-serif;
+        font-size: 5.3vw;
+        letter-spacing: 0;
+        text-align: center !important;
+    }
+
+    .home.mobile .bottom .divisor {
+        padding-right: 30vw;
+        padding-left: 30vw;
+    }
+
+    .home.mobile .bottom .divisor > hr {
+        height: 2px;
+        background-color: black;
+        margin: 20px 0;
+    }
+
+    .home.mobile .bottom .subtitle {
+        text-align: center;
+        color: gray;
+        text-transform: none;
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 0;
+        padding-right: 10vw;
+        padding-left: 10vw;
+        font-weight: 500;
+        font-size: 5.3vw;
+    }
+
+    .home.mobile .bottom .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        align-items: center;
+    }
+
+    .home.mobile .bottom .button {
+        width: 40vw;
+        height: 10vw;
+        /*border: 1px solid black;*/
+        border-radius: 2.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+
+    .home.mobile .bottom .button.belo {
+        background-image: url("https://silviadelucca.art.br/wp-content/themes/silviadeluccatheme/assets/images/uploads/home/silvia2.jpg");
+        background-position-x: -357px;
+        background-position-y: 118px;
+    }
+
+    .home.mobile .bottom .button.noticia {
+        background-image: url("https://silviadelucca.art.br/wp-content/themes/silviadeluccatheme/assets/images/uploads/home/silvia2.jpg");
+        background-position-x: 32px;
+        background-position-y: -80px;
+    }
+
+    .home.mobile .bottom .button.reflexao {
+        background-image: url("https://silviadelucca.art.br/wp-content/themes/silviadeluccatheme/assets/images/uploads/home/silvia2.jpg");
+        background-position-x: 0px;
+        background-position-y: -703px;
+    }
+
+    .home.mobile .bottom .button.homenagem {
+        background-image: url("https://silviadelucca.art.br/wp-content/themes/silviadeluccatheme/assets/images/uploads/home/silvia2.jpg");
+        background-position-x: -326px;
+        background-position-y: -306px;
+        transform: rotate(1deg);
+    }
+
+    .home.mobile .bottom .footer {
+margin-top: 5vh;
+    }
+
+    .home.mobile .bottom .footer-text {
+        text-align: center;
+        color: rgba(0,0,0,0.3);
+        /*text-transform: none;*/
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 0;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        font-weight: 600;
+        font-size: 3.25vw;
+    }
+}

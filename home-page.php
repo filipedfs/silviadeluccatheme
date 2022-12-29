@@ -23,57 +23,108 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <?php require_once(trailingslashit(get_template_directory()) . 'components/header.php'); ?>
-    <!-- Content -->
-    <div class="main-content home">
-        <div class="home-template">
-            <div class="home-content">
-                <h1 class="title animated animatedFadeInUp fadeInUp">Silvia <br />DE LUCCA</h1>
-                <p class="description animated animatedFadeInUp fadeInUp">
-                    Compositora, <br />
-                    Mestre em Artes, <br />
-                    Graduada em Piano e Psicologia, <br />
-                    Apaixonada por Educação e Sociologia.
-                </p>
-                <p class="home-page-subsubtitle">
-                  A parceria enriquece o fazer e determinados conteúdos merecem ser compartilhados:
-                </p>
-
-                <div class="home-template-topics">
-                    <a href="/noticia-2">
-                        <div class="home-topic">
-                            <div class="circle" id="texture-a"></div>
-                            <p>Notícia</p>
-                        </div>
-                    </a>
-                    <a href="/belo-3">
-                        <div class="home-topic">
-                            <p>Belo</p>
-                            <div class="circle" id="texture-b"></div>
-                        </div>
-                    </a>
-                    <a href="/reflexao">
-                        <div class="home-topic">
-                            <div class="circle" id="texture-c"></div>
-                            <p>Reflexão</p>
-                        </div>
-                    </a>
-                    <a href="/homenagem">
-                        <div class="home-topic">
-                            <p>Homenagem</p>
-                            <div class="circle" id="texture-d"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="home-template-image-container">
-                <img class="home-template-image" src="<?php echo get_template_directory_uri() ?>/assets/images/uploads/home/silvia2.jpg" alt="" />
-            </div>
+<!-- Header -->
+<?php require_once(trailingslashit(get_template_directory()) . 'components/header.php'); ?>
+<!-- Mobile Content -->
+<div class="home mobile">
+    <div class="top">
+        <div class="title">
+            <h1>
+                <span class="name">Silvia</span>
+                <br/>
+                <span class="surname">de Lucca</span>
+            </h1>
+        </div>
+        <div class="portrait"></div>
+        <div class="menu">
+            <label class="mobile-menu mobile" for="mobile-menu">
+                <span style="display: flex;flex-direction: row;align-items: center">
+                    <span class="menu-name">Menu</span>&nbsp;<i class="bi bi-list menu-icon"></i>
+                </span>
+            </label>
+        </div>
+        <div class="more">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
         </div>
     </div>
-    <!-- Footer -->
-    <?php require_once(trailingslashit(get_template_directory()) . 'components/footer.php'); ?>
+    <div class="bottom">
+        <h2 class="title">
+            Compositora, Mestre em Artes,<br/>
+            Graduada em Piano e Psicologia,<br/>
+            Apaixonada por Educação<br/>
+            e Sociologia.
+        </h2>
+        <div class="divisor">
+            <hr/>
+        </div>
+        <p class="subtitle">
+            A parceria enriquece o fazer e
+            determinados conteúdos
+            merecem ser compartilhados:
+        </p>
+        <div class="buttons">
+            <div class="button belo">Belo</div>
+            <div class="button noticia">Notícia</div>
+            <div class="button reflexao">Reflexão</div>
+            <div class="button homenagem">Homenagem</div>
+        </div>
+        <div class="footer">
+            <p class="footer-text">&copy; Copyright 2022 Silvia de Lucca | Todos os Direitos</p>
+        </div>
+    </div>
+</div>
+<!-- Content -->
+<div class="main-content home desktop">
+    <div class="home-template">
+        <div class="home-content">
+            <h1 class="title animated animatedFadeInUp fadeInUp">Silvia <br/>DE LUCCA</h1>
+            <p class="description animated animatedFadeInUp fadeInUp">
+                Compositora, <br/>
+                Mestre em Artes, <br/>
+                Graduada em Piano e Psicologia, <br/>
+                Apaixonada por Educação e Sociologia.
+            </p>
+            <p class="home-page-subsubtitle">
+                A parceria enriquece o fazer e determinados conteúdos merecem ser compartilhados:
+            </p>
+
+            <div class="home-template-topics">
+                <a href="/noticia-2">
+                    <div class="home-topic">
+                        <div class="circle" id="texture-a"></div>
+                        <p>Notícia</p>
+                    </div>
+                </a>
+                <a href="/belo-3">
+                    <div class="home-topic">
+                        <p>Belo</p>
+                        <div class="circle" id="texture-b"></div>
+                    </div>
+                </a>
+                <a href="/reflexao">
+                    <div class="home-topic">
+                        <div class="circle" id="texture-c"></div>
+                        <p>Reflexão</p>
+                    </div>
+                </a>
+                <a href="/homenagem">
+                    <div class="home-topic">
+                        <p>Homenagem</p>
+                        <div class="circle" id="texture-d"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="home-template-image-container">
+            <img class="home-template-image"
+                 src="<?php echo get_template_directory_uri() ?>/assets/images/uploads/home/silvia2.jpg" alt=""/>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<?php require_once(trailingslashit(get_template_directory()) . 'components/footer.php'); ?>
 </body>
 
 </html>
